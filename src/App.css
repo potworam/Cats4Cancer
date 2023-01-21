@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.picturebox {
+  max-height: 100px;
+  max-width: 100px;
+}
+.salesbox {
+  align-items: center;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+/* Need to make this my own settings */
