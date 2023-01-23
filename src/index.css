@@ -1,4 +1,5 @@
 body {
+  background-color: deeppink;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #555;
+}
+.salesbox {
+  /* display: flexbox;
+  flex-direction: row; */
+  width: fit-content;
+  height: fit-content;
+color: white;
+background-color: blue;
+padding: 10px;
+}
+/* .picturebox {
+} */
+.textbox {
+  text-align: center;
+}
+.buttonright {
+ position: relative;
+left: 175px;
+bottom: 20px;
+}
+/* center text a little to the left, need to give flexbox effects too */

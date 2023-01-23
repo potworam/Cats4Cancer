@@ -1,17 +1,19 @@
 import React from "react";
 import cattree from './photos/cattree.jpeg';
-import "./App.css"
+import "./index.css"
 function Body(){
     return(<div className="salesbox"> 
-        <div className="picturebox">
+        <box className="picturebox">
             <img src={cattree} alt=""/>
-        </div>
-        <div>Cat Tree</div>
-        <div>150$</div>
-        <button> buy</button>
+        </box>
+        <box className="textbox">
+        <div>Cat Tree 150$</div> 
+    
+        <button className="buttonright"> buy</button>
+        </box>
         </div>
     )
+    
 }
-// need to work on css properties, not sure if the import link is properly set up
-
+// need to work on css properties
 export default Body;
