@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import Body from './Body';
+import Header from './header'
+import Footer from './Footer'
 import './App.css';
 
 function App() {
   return (
-   
-      
-      <Body></Body>
+   <div>
+    <main>
+    <Header></Header>
+    <Body></Body>
+    <Footer></Footer>
      
   
+    </main>
+   </div>
   );
 }
 

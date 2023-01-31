@@ -36,4 +36,14 @@ padding: 10px;
 left: 175px;
 bottom: 20px;
 }
+header{
+  color: orange;
+  size: 50px;
+}
+.title{
+  color: orange;
+  size: 50px;
+  position: relative;
+  left: 500px;
+}
 /* center text a little to the left, need to give flexbox effects too */
