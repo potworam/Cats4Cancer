@@ -2,7 +2,9 @@ import React from "react";
 import "./index.css"
 function Header(){
     return(
-        <h1 className="title">cats4cancer</h1>
+        <div className="headerbackground">
+             <h1>cats4cancer</h1>
+        </div>
     )
 }
 
