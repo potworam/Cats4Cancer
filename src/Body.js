@@ -3,7 +3,10 @@ import cattree from './photos/cattree.jpeg';
 import "./index.css"
 
 function Body(){
-    return(<div className="salesbox"> 
+    return(
+    <div className="bodyBox">
+
+<div className="salesbox"> 
         <box className="picturebox">
             <img src={cattree} alt=""/>
         </box>
@@ -12,6 +15,29 @@ function Body(){
     
         <button className="buttonright"> buy</button>
         </box>
+        </div>
+
+        <div className="salesbox"> 
+        <box className="picturebox">
+            <img src={cattree} alt=""/>
+        </box>
+        <box className="center">
+        <div>Cat Tree 150$</div> 
+    
+        <button className="buttonright"> buy</button>
+        </box>
+        </div>
+
+    <div className="salesbox"> 
+        <box className="picturebox">
+            <img src={cattree} alt=""/>
+        </box>
+        <box className="center">
+        <div>Cat Tree 150$</div> 
+    
+        <button className="buttonright"> buy</button>
+        </box>
+        </div>
         </div>
     )
     
