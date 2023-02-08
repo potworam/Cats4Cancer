@@ -2,8 +2,8 @@ import React from "react";
 import cattree from './photos/cattree.jpeg';
 import "./index.css"
 
-function Body(){
-    return(<div className="salesbox"> 
+function Body3(){
+    return(<div className="salesbox3"> 
         <box className="picturebox">
             <img src={cattree} alt=""/>
         </box>
@@ -17,4 +17,4 @@ function Body(){
     
 }
 // need to work on css properties
-export default Body;
+export default Body3;
